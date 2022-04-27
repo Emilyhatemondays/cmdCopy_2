@@ -1,9 +1,5 @@
 # cmdCopy
 
-Txt dosyası içerisindeki yolları tarayarak .bat dosyasında belirlemiş olduğumuz dizinlere kopyalamaktadır.
+Он сканирует пути в txt-файле и копирует их в каталоги, которые мы определили в .bat-файле.
 
-ERP sistemimizde testserverdan online servera sürekli dosya atmak veya yolları bulmak zaman kaybı olduğunda ufak çaplı birşey yazma ihtiyacı duydum.
-
-En azından güncellenen txt dosyalarımı bir kenarda saklayabiliyorum.
-
-Umarım sizlerinde işine yarar.
+Я надеюсь, что это будет полезно для вас.

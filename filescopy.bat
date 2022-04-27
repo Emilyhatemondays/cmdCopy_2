@@ -7,24 +7,9 @@ setlocal enabledelayedexpansion
 	SET YAZIRENK=0B
 	SET ARKARENK=B0
 	mode con cols=61 lines=27
-	title Cihazlar Arasi Dosya Transfer v%VERSIYON% ^| Jokedr
-	REM %USERPROFILE%\Desktop\MURAT_SAGLAM\FILE(S)_COPY.bat $(FULL_CURRENT_PATH)
-	REM %USERPROFILE%\Desktop\MURAT_SAGLAM\FILE(S)_COPY.bat $(FULL_CURRENT_PATH)
-	REM fltmc >nul 2>&1 || (
-	  REM echo Set UAC = CreateObject^("Shell.Application"^) > "%temp%\GetAdmin.vbs"
-	  REM echo UAC.ShellExecute "%~fs0", "", "", "runas", 1 >> "%temp%\GetAdmin.vbs"
-	  REM cmd /u /c type "%temp%\GetAdmin.vbs">"%temp%\GetAdminUnicode.vbs"
-	  REM cscript //nologo "%temp%\GetAdminUnicode.vbs"
-	  REM del /f /q "%temp%\GetAdmin.vbs" >nul 2>&1
-	  REM del /f /q "%temp%\GetAdminUnicode.vbs" >nul 2>&1
-	  REM exit
-	REM )
-	REM ╔══╦══╗█▀
-	REM ╠»«╬»«╣■
-	REM ╚══╩══╝█▄
-	
-	set HedefTestServer=\\192.168.2.224\testserver
-	set HedefOtomasyon=\\192.168.2.254\wwwroot\otomasyon
+	title Передача файлов между устройствами v%VERSIYON% ^| Jokedr
+	set HedefTestServer=\\YOUR_SERVER\
+	set HedefOtomasyon=\\YOUR_SERVER2\
 	set HedefMasaustu=%USERPROFILE%\Desktop
 	set HedefYedek=D:\UPDATE_BACKUP
 	set TvS=%date%_%time%
